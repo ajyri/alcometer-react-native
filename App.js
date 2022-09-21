@@ -67,7 +67,7 @@ export default function App() {
             </View>
           </View>
           
-          <Text style={[{ 'color': value < 0.4 ? '#50C878' : value > 0.5 && value < 1 ? '#f7dc6f' : '#00000' }, light.result]}>{value}</Text>
+          <Text style={[{ 'color': value < 0.4 ? '#50C878' : value > 0.5 && value < 1 ? '#f7dc6f' : '#F08080' }, light.result]}>{value}</Text>
           <Button mode="contained" style={darkMode === false ? light.btn : dark.btn} onPress={calculate}><Text style={darkMode === false ? light.label : dark.label}>Calculate</Text></Button>
 
         </View>
